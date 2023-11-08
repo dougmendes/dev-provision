@@ -5,28 +5,9 @@ DevProGo is a Go-based application that empowers developers to swiftly provision
 provision-cli/
 │
 ├── cmd/
-│   └── provision/
-│       ├── main.go         # Ponto de entrada da aplicação CLI
-│       └── commands/       # Definições dos comandos CLI
-│           ├── create.go   # Comando para criar ambientes de desenvolvimento
-│           ├── delete.go   # Comando para excluir ambientes de desenvolvimento
-│           ├── list.go     # Comando para listar ambientes de desenvolvimento
-│           └── <outros_comandos>.go
+│   └── root.go/
 │
-├── internal/
-│   ├── provision/         # Lógica interna da aplicação
-│   │   ├── provisioner.go # Módulo principal de provisionamento
-│   │   ├── config.go     # Gerenciamento de configurações
-│   │   ├── api.go        # Integração com a API REST (se aplicável)
-│   │   └── <outros_módulos>.go
-│   │
-│   └── pkg/              # Pacotes e utilitários reutilizáveis
-│
-├── scripts/              # Scripts para automação, implantação e configuração
-│
-├── config/               # Arquivos de configuração da aplicação
-│
-├── tests/                # Testes unitários e de integração
+├── main.go             # Documentação do projeto
 │
 ├── README.md             # Documentação do projeto
 │
