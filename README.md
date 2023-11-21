@@ -7,11 +7,11 @@ provision-cli/
 ├── cmd/
 │   └── root.go/
 │
-├── main.go             # Documentação do projeto
+├── main.go         
 │
-├── README.md             # Documentação do projeto
+├── README.md           
 │
-├── LICENSE               # Licença do projeto
+├── LICENSE              
 │
-└── go.mod                # Arquivo de definição de módulo Go
+└── go.mod              
 ```
